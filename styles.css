@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #141413;
+    color: #f6f6f6;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho-menu {
+display: flex;
+gap: 80px;
+
+}
+
+.cabecalho-menu {
+font-family: 'montserrat', sans-serif;
+font-size: 24px;
+font-weight: 600;
+color: #6836BF;
+text-decoration: none;
+}
+
+.titulo-destaque {
+    color: #6836BF;
+}
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    width: 650;
+    display: flex; 
+    flex-direction: column;
+    gap: 40px;
+    
+}
+.apresentacao-do-titulo {
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 593px;
+    height: 168px;
+}
+.apresentacao-do-paragrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 350px;
+    font-size: 24px ;
+    line-height: 36px;
+    text-align: start;
+    width: 593px;
+    height: 144px;
+}
+
+.links-de-acao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.link-acesse-minhas-redes {
+    font-family: 'krona one', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.botoes-de-acao {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #6836BF;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.botoes-de-acao:hover {
+    transition: 0.5s;
+background-color: #6836BF;
+}
+
+.rodape {
+    padding: 28.64px;
+    color: #000;
+    background-color: #6836BF;
+    text-align: center;
+    font-family: 'mont serrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    
+}
