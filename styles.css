@@ -33,7 +33,7 @@ gap: 80px;
 
 .cabecalho-menu {
 font-family: var(--fonte-secundaria);
-font-size: 24px;
+font-size: 2rem;
 font-weight: 600;
 color: var(--cor-terciaria);
 text-decoration: none;
@@ -72,7 +72,7 @@ text-decoration: none;
     font-family: var(--fonte-secundaria);
     font-style: normal;
     font-weight: 350px;
-    font-size: 24px ;
+    font-size: 2rem;
     line-height: 36px;
     text-align: start;
     width: 593px;
@@ -90,7 +90,7 @@ text-decoration: none;
 .link-acesse-minhas-redes {
     font-family: var(--fonte-principals);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 2rem;
 }
 
 .botoes-de-acao {
@@ -101,7 +101,7 @@ text-decoration: none;
     width: 378px;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 2rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -120,7 +120,7 @@ background-color: var(--cor-hover);
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 2rem;
     font-weight: 400;
     width: 100%;
     
