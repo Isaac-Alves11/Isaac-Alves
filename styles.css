@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
+:root {
+    --cor-primaria: #141413;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #443C68;
+    --cor-hover: #443C68;
+
+    --fonte-principal: 'Krona One', sans-serif;
+    --fonte-secundaria: 'montserrat', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +17,8 @@
 }
 
 body {
-    background-color: #141413;
-    color: #f6f6f6;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 .cabecalho {
@@ -22,15 +32,15 @@ gap: 80px;
 }
 
 .cabecalho-menu {
-font-family: 'montserrat', sans-serif;
+font-family: var(--fonte-secundaria);
 font-size: 24px;
 font-weight: 600;
-color: #6836BF;
+color: var(--cor-terciaria);
 text-decoration: none;
 }
 
 .titulo-destaque {
-    color: #6836BF;
+    color: var(--cor-terciaria);
 }
 .apresentacao {
     padding: 5% 15%;
@@ -47,7 +57,7 @@ text-decoration: none;
     
 }
 .apresentacao-do-titulo {
-    font-family: 'Krona One';
+    font-family: var(--fonte-principal);
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -59,7 +69,7 @@ text-decoration: none;
     height: 168px;
 }
 .apresentacao-do-paragrafo {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-secundaria);
     font-style: normal;
     font-weight: 350px;
     font-size: 24px ;
@@ -78,7 +88,7 @@ text-decoration: none;
 }
 
 .link-acesse-minhas-redes {
-    font-family: 'krona one', sans-serif;
+    font-family: var(--fonte-principals);
     font-weight: 400;
     font-size: 24px;
 }
@@ -87,7 +97,7 @@ text-decoration: none;
     display: flex;
     justify-content: center;
     gap: 16px;
-    border: 2px solid #6836BF;
+    border: 2px solid var(--cor-terciaria);
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -95,22 +105,23 @@ text-decoration: none;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #f6f6f6;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
 }
 
 .botoes-de-acao:hover {
     transition: 0.5s;
-background-color: #6836BF;
+background-color: var(--cor-hover);
 }
 
 .rodape {
     padding: 28.64px;
-    color: #000;
-    background-color: #6836BF;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
     text-align: center;
-    font-family: 'mont serrat', sans-serif;
+    font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 400;
+    width: 100%;
     
 }
